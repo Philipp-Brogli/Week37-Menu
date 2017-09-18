@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/new_group"
+        android:showAsAction="never"
+        android:title="@string/new_group"/>
+    <item
+        android:id="@+id/new_broadcast"
+        android:showAsAction="never"
+        android:title="@string/new_broadcast"/>
+    <item
+        android:id="@+id/whatsapp_web"
+        android:showAsAction="never"
+        android:title="@string/whatsapp_web"/>
+    <item
+        android:id="@+id/starred_messages"
+        android:showAsAction="never"
+        android:title="@string/starred_messages"/>
+    <item
+        android:id="@+id/settings"
+        android:showAsAction="never"
+        android:title="@string/settings"/>
+</menu>
